@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">PracticeApp2.8</string>
     <string name="title_activity_maps">Map</string>
+    <string name="button_start">Connect And Go</string>
 </resources>
