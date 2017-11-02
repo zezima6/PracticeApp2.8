@@ -3,4 +3,6 @@
     <string name="title_activity_maps">Map</string>
     <string name="button_start">Connect And Go</string>
     <string name="begin">Start:</string>
+    <string name="end">End:</string>
+    <string name="googlemaps">googlemaps</string>
 </resources>

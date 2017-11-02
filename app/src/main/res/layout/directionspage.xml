@@ -8,10 +8,30 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/begin"
+        android:textColor="#000000"
         />
-    <TextView
+
+    <EditText
+        android:id="@+id/editText"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text=""
-        />
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPostalAddress" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="432dp"
+        android:layout_height="35dp"
+        android:text="@string/end"
+        android:textColor="#000000"
+        android:layout_gravity="" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPostalAddress" />
+
+
 </LinearLayout>

@@ -18,11 +18,11 @@ public class MainActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.startpage);}
 
-    public void gotoSecondActivity (View view){
-        //Intent intent = new Intent(this, MapsActivity.class);
-        //startActivity(intent);
-        setContentView(R.layout.activity_maps);
 
+    public void gotoSecondActivity(View v)
+    {
+        startActivity(new Intent(MainActivity.this, MapsActivity.class));
     }
     }
+
 
